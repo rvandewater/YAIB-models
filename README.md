@@ -1,5 +1,5 @@
 # YAIB-models
-Models trained for the publication of [Yet Another ICU Benchmark](https://github.com/rvandewater/YAIB). The models are named in the following manner: _dataset_task_model_cv-repetition_cv-fold_
+Models trained for the publication of [Yet Another ICU Benchmark](https://github.com/rvandewater/YAIB). The models are named in the following manner: _dataset_task_model_cv-repetition_cv-fold_. Please not that it is possible that the performance of the classification models might deviate slightly from the official paper results due to major improvements to YAIB in the meantime. We hope to confirm the results once YAIB is out of alpha.
 ## Datasets
 | Dataset                 | [MIMIC-III](https://physionet.org/content/mimiciii/) / [IV](https://physionet.org/content/mimiciv/) | [eICU-CRD](https://physionet.org/content/eicu-crd/) | [HiRID](https://physionet.org/content/hirid/1.1.1/) | [AUMCdb](https://doi.org/10.17026/dans-22u-f8vd) |
 |-------------------------|-----------------------------------------------------------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|
@@ -18,6 +18,7 @@ Models trained for the publication of [Yet Another ICU Benchmark](https://github
 ## Model Types
 - [Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html?highlight=logistic+regression):
   Standard regression approach.
+- [Elastic Net](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.ElasticNet.html).
 - [LightGBM](https://proceedings.neurips.cc/paper/2017/file/6449f44a102fde848669bdd9eb6b76fa-Paper.pdf): Efficient gradient
   boosting trees.
 - [Long Short-term Memory (LSTM)](https://ieeexplore.ieee.org/document/818041): The most commonly used type of Recurrent Neural
