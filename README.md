@@ -1,5 +1,5 @@
 # YAIB-models
-Models trained for the publication of Yet Another ICU Benchmark
+Models trained for the publication of [Yet Another ICU Benchmark](https://github.com/rvandewater/YAIB).
 ## Datasets
 | Dataset                 | [MIMIC-III](https://physionet.org/content/mimiciii/) / [IV](https://physionet.org/content/mimiciv/) | [eICU-CRD](https://physionet.org/content/eicu-crd/) | [HiRID](https://physionet.org/content/hirid/1.1.1/) | [AUMCdb](https://doi.org/10.17026/dans-22u-f8vd) |
 |-------------------------|-----------------------------------------------------------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|
