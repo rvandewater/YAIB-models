@@ -1,5 +1,5 @@
 # YAIB-models
-Models trained for the publication of [Yet Another ICU Benchmark](https://github.com/rvandewater/YAIB).
+Models trained for the publication of [Yet Another ICU Benchmark](https://github.com/rvandewater/YAIB). The models are named in the following manner: _dataset_task_model_cv-repetition_cv-fold_
 ## Datasets
 | Dataset                 | [MIMIC-III](https://physionet.org/content/mimiciii/) / [IV](https://physionet.org/content/mimiciv/) | [eICU-CRD](https://physionet.org/content/eicu-crd/) | [HiRID](https://physionet.org/content/hirid/1.1.1/) | [AUMCdb](https://doi.org/10.17026/dans-22u-f8vd) |
 |-------------------------|-----------------------------------------------------------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|
