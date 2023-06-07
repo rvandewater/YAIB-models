@@ -1,5 +1,12 @@
+
 # YAIB-models
 Models trained for the publication of [Yet Another ICU Benchmark](https://github.com/rvandewater/YAIB). The models are named in the following manner: _dataset_task_model_cv-repetition_cv-fold_. Please not that it is possible that the performance of the classification models might deviate slightly from the official paper results due to major improvements to YAIB in the meantime. We hope to confirm the results once YAIB is out of alpha.
+
+The following repositories may be relevant as well:
+- [YAIB](https://github.com/rvandewater/YAIB): The main YAIB repository.
+- [YAIB-models](https://github.com/rvandewater/YAIB-models): Pretrained models for YAIB.
+- [ReciPys](https://github.com/rvandewater/ReciPys): Preprocessing package for YAIB pipelines.
+
 ## Datasets
 We support the following datasets out of the box:
 
@@ -20,6 +27,7 @@ We support the following datasets out of the box:
 | 3   | Sepsis                    | Hourly (within 6H) | Binary Classification |
 | 4   | Kidney Function(KF)       | Once per stay | Regression |
 | 5   | Length of Stay (LoS)      | Hourly (within 7D) | Regression |
+
 ## Model Types
 - [Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html?highlight=logistic+regression):
   Standard regression approach.
