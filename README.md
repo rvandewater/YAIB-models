@@ -1,5 +1,5 @@
 ![YAIB logo](https://github.com/rvandewater/YAIB/blob/development/docs/figures/yaib_logo.png)
-# YAIB-models
+# 🧪 YAIB-models
 Models trained for the publication of [Yet Another ICU Benchmark](https://github.com/rvandewater/YAIB). The models are named in the following manner: _dataset_task_model_cv-repetition_cv-fold_. Please not that it is possible that the performance of the classification models might deviate slightly from the official paper results due to major improvements to YAIB in the meantime. We hope to confirm the results once YAIB is out of alpha.
 
 The following repositories may be relevant as well:
@@ -25,7 +25,7 @@ We support the following datasets out of the box:
 | 1   | ICU Mortality             | Once per Stay (after 24H) | Binary Classification  |
 | 2   | Acute Kidney Injury (AKI) | Hourly (within 6H) | Binary Classification |
 | 3   | Sepsis                    | Hourly (within 6H) | Binary Classification |
-| 4   | Kidney Function(KF)       | Once per stay | Regression |
+| 4   | Kidney Function (KF)       | Once per stay | Regression |
 | 5   | Length of Stay (LoS)      | Hourly (within 7D) | Regression |
 
 ## Model Types
@@ -42,3 +42,32 @@ We support the following datasets out of the box:
   dependencies.
 - [Transformers](https://papers.nips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf): The most common Attention
   based approach.
+ 
+# 📄Paper
+
+To reproduce the benchmarks in our paper, we refer to: the [ML reproducibility document](https://github.com/rvandewater/YAIB/blob/development/PAPER.md).
+If you use this code in your research, please cite the following publication:
+
+```
+@article{vandewaterYetAnotherICUBenchmark2023,
+	title = {Yet Another ICU Benchmark: A Flexible Multi-Center Framework for Clinical ML},
+	shorttitle = {Yet Another ICU Benchmark},
+	url = {http://arxiv.org/abs/2306.05109},
+	language = {en},
+	urldate = {2023-06-09},
+	publisher = {arXiv},
+	author = {van de Water, Robin and Schmidt, Hendrik and Elbers, Paul and Thoral, Patrick and Arnrich, Bert and Rockenschaub, Patrick},
+	month = jun,
+	year = {2023},
+	note = {arXiv:2306.05109 [cs]},
+	keywords = {Computer Science - Machine Learning},
+}
+```
+This paper can also be found on arxiv: https://arxiv.org/pdf/2306.05109.pdf
+
+# Acknowledgements
+
+We do not own any of the datasets used in this benchmark. This project uses heavily adapted components of
+the [HiRID benchmark](https://github.com/ratschlab/HIRID-ICU-Benchmark/). We thank the authors for providing this codebase and
+encourage further development to benefit the scientific community. The demo datasets have been released under
+an [Open Data Commons Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/1-0/).
