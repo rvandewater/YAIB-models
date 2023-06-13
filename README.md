@@ -1,5 +1,7 @@
 ![YAIB logo](https://github.com/rvandewater/YAIB/blob/development/docs/figures/yaib_logo.png)
-# 🧪 YAIB-models
+[![arXiv](https://img.shields.io/badge/arXiv-2306.05109-b31b1b.svg)](http://arxiv.org/abs/2306.05109)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+# 🧪 Yet Another ICU Benchmark (YAIB) - models
 Models trained for the publication of [Yet Another ICU Benchmark](https://github.com/rvandewater/YAIB). The models are named in the following manner: _dataset_task_model_cv-repetition_cv-fold_. Please not that it is possible that the performance of the classification models might deviate slightly from the official paper results due to major improvements to YAIB in the meantime. We hope to confirm the results once YAIB is out of alpha.
 
 The following repositories may be relevant as well:
